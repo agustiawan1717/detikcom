@@ -9,6 +9,10 @@ import com.example.detikcom.R
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.berita.view.*
 
+// TODO 3: Bagian adapter 
+
+// Digunakan untuk menampilkan recycler view
+
 class NewsAdapter (val context: Context, val listnews: List<news>) :
     RecyclerView.Adapter<NewsAdapter.MyViewHolder>() {
     inner class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
